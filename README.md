@@ -1,30 +1,16 @@
-# Analysis of FDA Data Using MySQL
+# 💊 Drug Approval Analysis – SQL  
 
-This project analyzes the Food and Drug Administration (FDA) drug approval dataset using MySQL. It provides insights into trends, sponsors, marketing status, dosage forms, and therapeutic areas.
+## 📌 Project Overview  
+This project analyzes **drug approvals** using **SQL** to extract trends in approval rates, marketing status, dosage forms, and therapeutic classifications. The insights help understand historical approval patterns and product success rates.  
 
-Tools Used:
-MySQL
+## 🎯 Key Analysis Areas  
+✅ **Approval Trends** – Number of drugs approved each year, identifying top approval years and sponsor trends.  
+✅ **Marketing Status Segmentation** – Grouping products by marketing status and analyzing application trends post-2010.  
+✅ **Product Analysis** – Categorizing drugs by dosage form and identifying the most successful types.  
+✅ **Therapeutic Class Analysis** – Evaluating approvals based on **Therapeutic Evaluation Code (TE_Code)** to determine high-approval categories.  
 
-Analysis Performed:
+## 🛠️ Technologies Used  
+- **SQL (Joins, Aggregations, Window Functions, CTEs)**  
+- **Data Analysis & Trend Identification**  
 
-Yearly Drug Approvals:
-Calculate the number of drugs approved each year.
-Identify top three years with highest and lowest approvals (descending and ascending order).
-Analyze trends in yearly approvals based on sponsors.
-
-Sponsor Analysis:
-Rank sponsors based on total approvals between 1939 and 1960.
-
-Marketing Status Analysis:
-Group products by MarketingStatus.
-Calculate total applications per MarketingStatus year-wise after 2010.
-Identify top MarketingStatus with the maximum number of applications and analyze its trend.
-
-Dosage Form Analysis:
-Categorize products by dosage form.
-Calculate total approvals per dosage form and identify the most successful forms.
-Investigate yearly trends related to successful forms.
-
-Therapeutic Area Analysis:
-Analyze drug approvals based on therapeutic evaluation code (TE_Code).
-Determine the TE_Code with the highest number of approvals in each year.
+📌 *This project provides data-driven insights into pharmaceutical approvals and regulatory trends!* 🚀  
